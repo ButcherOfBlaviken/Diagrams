@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-02T07:18:04.075Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="Hf0BKxed8e4_35vqkzu-" version="15.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-02T07:21:19.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="9ihVJjsE3qt9WXn3ouuJ" version="15.6.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="554" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xSMPxIjG9MjmwalpSGuS-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
-          <mxGeometry x="45" y="190" width="10" height="50" as="geometry" />
+          <mxGeometry x="45" y="180" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xSMPxIjG9MjmwalpSGuS-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry x="45" y="300" width="10" height="70" as="geometry" />
@@ -55,21 +55,22 @@
             <mxPoint x="190" y="196" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xSMPxIjG9MjmwalpSGuS-15" value="Control response or Error code" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;exitX=0.1;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.167;entryY=0.743;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xSMPxIjG9MjmwalpSGuS-12" target="xSMPxIjG9MjmwalpSGuS-8">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="xSMPxIjG9MjmwalpSGuS-15" value="Control response or Error code" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;exitX=0.1;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xSMPxIjG9MjmwalpSGuS-12">
+          <mxGeometry x="0.0365" y="-10" relative="1" as="geometry">
             <mxPoint x="330" y="290" as="sourcePoint" />
-            <mxPoint x="230" y="290" as="targetPoint" />
+            <mxPoint x="190" y="290" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xSMPxIjG9MjmwalpSGuS-16" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;exitX=0.967;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.033;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xSMPxIjG9MjmwalpSGuS-8" target="xSMPxIjG9MjmwalpSGuS-17">
+        <mxCell id="xSMPxIjG9MjmwalpSGuS-16" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;entryX=0.033;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.033;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xSMPxIjG9MjmwalpSGuS-8" target="xSMPxIjG9MjmwalpSGuS-17">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="200" y="350" as="sourcePoint" />
+            <mxPoint x="240" y="349" as="sourcePoint" />
             <mxPoint x="300" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xSMPxIjG9MjmwalpSGuS-11" value="Control command" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;entryX=0.233;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.167;exitY=0.512;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xSMPxIjG9MjmwalpSGuS-8" target="xSMPxIjG9MjmwalpSGuS-12">
+        <mxCell id="xSMPxIjG9MjmwalpSGuS-11" value="Control command" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;entryX=0.233;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.233;exitY=0.477;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xSMPxIjG9MjmwalpSGuS-8" target="xSMPxIjG9MjmwalpSGuS-12">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="210" y="240" as="sourcePoint" />
+            <mxPoint x="190" y="230" as="sourcePoint" />
             <mxPoint x="340" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
