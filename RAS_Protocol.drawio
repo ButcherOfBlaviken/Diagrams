@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-02T07:21:19.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="9ihVJjsE3qt9WXn3ouuJ" version="15.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-02T07:23:38.459Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="cB_icE-LuNG-upa5BwSr" version="15.6.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="554" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -62,7 +62,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xSMPxIjG9MjmwalpSGuS-16" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;entryX=0.033;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.033;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xSMPxIjG9MjmwalpSGuS-8" target="xSMPxIjG9MjmwalpSGuS-17">
+        <mxCell id="xSMPxIjG9MjmwalpSGuS-16" value="End session command" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=default;fontColor=default;strokeColor=default;fillColor=default;entryX=0.033;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.033;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xSMPxIjG9MjmwalpSGuS-8" target="xSMPxIjG9MjmwalpSGuS-17">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="240" y="349" as="sourcePoint" />
             <mxPoint x="300" y="350" as="targetPoint" />
