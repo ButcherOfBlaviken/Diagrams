@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-11-22T06:11:29.269Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" version="15.8.2" etag="8vqpuIqD9P3dVWHBYVj3" type="github"><diagram id="VmNvpuF93PMmmDHaBkj_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-22T09:24:18.671Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="zlwWiwozv3Wp1UQIeqng" version="15.8.2" type="github">
+  <diagram id="VmNvpuF93PMmmDHaBkj_" name="sw-arch">
+    <mxGraphModel dx="1303" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NMHuL_ry30AH-bXF_zyq-1" value="RAS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHuL_ry30AH-bXF_zyq-17" value="RAS信息安全通信协议服务" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NMHuL_ry30AH-bXF_zyq-2" target="NMHuL_ry30AH-bXF_zyq-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="413" y="290" />
+              <mxPoint x="413" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMHuL_ry30AH-bXF_zyq-2" value="RAS_Comm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHuL_ry30AH-bXF_zyq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NMHuL_ry30AH-bXF_zyq-3" target="NMHuL_ry30AH-bXF_zyq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHuL_ry30AH-bXF_zyq-15" value="MQTT Client协议服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NMHuL_ry30AH-bXF_zyq-11">
+          <mxGeometry x="-0.0492" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMHuL_ry30AH-bXF_zyq-3" value="RAS_MQTT_Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHuL_ry30AH-bXF_zyq-12" value="CMAC校验计算服务" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NMHuL_ry30AH-bXF_zyq-4" target="NMHuL_ry30AH-bXF_zyq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHuL_ry30AH-bXF_zyq-4" value="RAS_MAC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHuL_ry30AH-bXF_zyq-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NMHuL_ry30AH-bXF_zyq-5" target="NMHuL_ry30AH-bXF_zyq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHuL_ry30AH-bXF_zyq-14" value="数据加解密服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NMHuL_ry30AH-bXF_zyq-13">
+          <mxGeometry x="-0.041" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NMHuL_ry30AH-bXF_zyq-5" value="RAS_Encryption" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHuL_ry30AH-bXF_zyq-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="300" width="600" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="NMHuL_ry30AH-bXF_zyq-9" value="RAS信息安全模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="300" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
