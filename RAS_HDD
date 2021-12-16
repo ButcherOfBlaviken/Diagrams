@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T07:19:04.391Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53" etag="jhsROj-14Iy9MLPDUxZR" version="15.8.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-12-16T06:04:21.002Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53" etag="z_ZATHMxMEBI3plZUOui" version="15.9.6" type="github" pages="6">
   <diagram id="VmNvpuF93PMmmDHaBkj_" name="sw-arch">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -278,7 +278,7 @@
         <mxCell id="DHsV8C21JjTbxmc8e2Ow-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="DHsV8C21JjTbxmc8e2Ow-3" vertex="1">
           <mxGeometry x="45" y="90" width="10" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="DHsV8C21JjTbxmc8e2Ow-10" value="0x00 - RAS功能开启 + random key" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.167;exitY=0.025;exitDx=0;exitDy=0;exitPerimeter=0;" parent="rdRZOD6-XtJqYYMsLYT0-1" source="DHsV8C21JjTbxmc8e2Ow-4" edge="1">
+        <mxCell id="DHsV8C21JjTbxmc8e2Ow-10" value="0x00 - RAS功能开启请求" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.167;exitY=0.025;exitDx=0;exitDy=0;exitPerimeter=0;" parent="rdRZOD6-XtJqYYMsLYT0-1" source="DHsV8C21JjTbxmc8e2Ow-4" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="210" y="140" as="sourcePoint" />
             <mxPoint x="420" y="140" as="targetPoint" />
@@ -305,20 +305,20 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DHsV8C21JjTbxmc8e2Ow-16" value="RAS控制命令(明文，周期转发)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.108;exitY=0.343;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.265;entryY=0.336;entryDx=0;entryDy=0;entryPerimeter=0;" parent="rdRZOD6-XtJqYYMsLYT0-1" source="DHsV8C21JjTbxmc8e2Ow-7" target="DHsV8C21JjTbxmc8e2Ow-8" edge="1">
+        <mxCell id="DHsV8C21JjTbxmc8e2Ow-16" value="RAS控制命令(周期转发)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.108;exitY=0.343;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.265;entryY=0.336;entryDx=0;entryDy=0;entryPerimeter=0;" parent="rdRZOD6-XtJqYYMsLYT0-1" source="DHsV8C21JjTbxmc8e2Ow-7" target="DHsV8C21JjTbxmc8e2Ow-8" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="490" y="290" as="sourcePoint" />
             <mxPoint x="570" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DHsV8C21JjTbxmc8e2Ow-18" value="RAS回复及车辆信息(明文，周期发送)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=-0.186;exitY=0.478;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.967;entryY=0.477;entryDx=0;entryDy=0;entryPerimeter=0;" parent="rdRZOD6-XtJqYYMsLYT0-1" source="DHsV8C21JjTbxmc8e2Ow-8" target="DHsV8C21JjTbxmc8e2Ow-7" edge="1">
+        <mxCell id="DHsV8C21JjTbxmc8e2Ow-18" value="RAS回复及车辆信息(周期发送)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=-0.186;exitY=0.478;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.967;entryY=0.477;entryDx=0;entryDy=0;entryPerimeter=0;" parent="rdRZOD6-XtJqYYMsLYT0-1" source="DHsV8C21JjTbxmc8e2Ow-8" target="DHsV8C21JjTbxmc8e2Ow-7" edge="1">
           <mxGeometry x="-0.2" width="80" relative="1" as="geometry">
             <mxPoint x="600" y="330" as="sourcePoint" />
             <mxPoint x="440" y="312" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DHsV8C21JjTbxmc8e2Ow-19" value="0x05 - RAS回复及车辆信息(密文，周期转发)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=-0.225;exitY=0.541;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.967;entryY=0.539;entryDx=0;entryDy=0;entryPerimeter=0;" parent="rdRZOD6-XtJqYYMsLYT0-1" source="DHsV8C21JjTbxmc8e2Ow-7" target="DHsV8C21JjTbxmc8e2Ow-4" edge="1">
+        <mxCell id="DHsV8C21JjTbxmc8e2Ow-19" value="0x05 - RAS回复及车辆信息(周期转发)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=-0.225;exitY=0.541;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.967;entryY=0.539;entryDx=0;entryDy=0;entryPerimeter=0;" parent="rdRZOD6-XtJqYYMsLYT0-1" source="DHsV8C21JjTbxmc8e2Ow-7" target="DHsV8C21JjTbxmc8e2Ow-4" edge="1">
           <mxGeometry x="-0.2" width="80" relative="1" as="geometry">
             <mxPoint x="350" y="370" as="sourcePoint" />
             <mxPoint x="250" y="370" as="targetPoint" />
@@ -332,7 +332,7 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DHsV8C21JjTbxmc8e2Ow-14" value="&lt;span style=&quot;font-size: 11px&quot;&gt;0x04 - RAS控制命令(密文，周期发送)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.01;exitY=0.306;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.147;entryY=0.306;entryDx=0;entryDy=0;entryPerimeter=0;" parent="rdRZOD6-XtJqYYMsLYT0-1" source="DHsV8C21JjTbxmc8e2Ow-4" target="DHsV8C21JjTbxmc8e2Ow-7" edge="1">
+        <mxCell id="DHsV8C21JjTbxmc8e2Ow-14" value="&lt;span style=&quot;font-size: 11px&quot;&gt;0x04 - RAS控制命令(周期发送)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.01;exitY=0.306;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.147;entryY=0.306;entryDx=0;entryDy=0;entryPerimeter=0;" parent="rdRZOD6-XtJqYYMsLYT0-1" source="DHsV8C21JjTbxmc8e2Ow-4" target="DHsV8C21JjTbxmc8e2Ow-7" edge="1">
           <mxGeometry x="0.0477" y="6" width="80" relative="1" as="geometry">
             <mxPoint x="200" y="290" as="sourcePoint" />
             <mxPoint x="280" y="290" as="targetPoint" />
