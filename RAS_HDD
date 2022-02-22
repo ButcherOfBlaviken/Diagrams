@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T06:04:21.002Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53" etag="z_ZATHMxMEBI3plZUOui" version="15.9.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-02-22T09:42:15.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.56" etag="0P6YUtQPOw3YBO1mPzV8" version="15.9.6" type="github" pages="7">
   <diagram id="VmNvpuF93PMmmDHaBkj_" name="sw-arch">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -359,6 +359,47 @@
             <mxPoint x="460" y="480" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gr6PJDp-piBks0iCKGBU" name="VCS_Arch">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="p3rwuZs1G78e31OyJICU-0" />
+        <mxCell id="p3rwuZs1G78e31OyJICU-1" parent="p3rwuZs1G78e31OyJICU-0" />
+        <mxCell id="4-CqwiveZchXqKt7poe3-21" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="p3rwuZs1G78e31OyJICU-1">
+          <mxGeometry x="110" y="240" width="680" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="4-CqwiveZchXqKt7poe3-2" value="VCS_RASSC_Comm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="p3rwuZs1G78e31OyJICU-1">
+          <mxGeometry x="120" y="280" width="430" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4-CqwiveZchXqKt7poe3-5" value="VCS_RASSC_Mqtt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="p3rwuZs1G78e31OyJICU-1">
+          <mxGeometry x="120" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4-CqwiveZchXqKt7poe3-7" value="VCS_RASSC_Checksum" style="rounded=0;html=1;whiteSpace=wrap;" vertex="1" parent="p3rwuZs1G78e31OyJICU-1">
+          <mxGeometry x="250" y="360" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4-CqwiveZchXqKt7poe3-10" value="VCS_RASSC_Encryption" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="p3rwuZs1G78e31OyJICU-1">
+          <mxGeometry x="410" y="360" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4-CqwiveZchXqKt7poe3-14" value="VCS_DriverHabitAdapter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="p3rwuZs1G78e31OyJICU-1">
+          <mxGeometry x="560" y="280" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="4-CqwiveZchXqKt7poe3-15" value="jsoncpp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="p3rwuZs1G78e31OyJICU-1">
+          <mxGeometry x="560" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4-CqwiveZchXqKt7poe3-16" value="libcurl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="p3rwuZs1G78e31OyJICU-1">
+          <mxGeometry x="690" y="430" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4-CqwiveZchXqKt7poe3-17" value="Paho Mqtt C" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="p3rwuZs1G78e31OyJICU-1">
+          <mxGeometry x="120" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4-CqwiveZchXqKt7poe3-18" value="Openssl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="p3rwuZs1G78e31OyJICU-1">
+          <mxGeometry x="250" y="430" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4-CqwiveZchXqKt7poe3-22" value="VehicleCloudSecurity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="p3rwuZs1G78e31OyJICU-1">
+          <mxGeometry x="155" y="250" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
